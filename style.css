@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
     box-sizing: border-box;
@@ -6,7 +6,7 @@
 
 body {
     background-color: #686de0;
-    font-family: 'Muli',sans-serif;
+    font-family: 'Roboto',sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -58,4 +58,8 @@ h3 {
 
 .btn:active {
     transform: scale(0.97);
+}
+
+.btn:hover {
+    opacity: 0.9;
 }
